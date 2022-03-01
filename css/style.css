@@ -1,0 +1,399 @@
+body {
+  background: #000;
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+}
+
+body .subscribe {
+  text-decoration: none;
+  margin: 5px;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-transform: uppercase;
+  background-color: rgba(34, 32, 95, 0.6);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #f9f9f9;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.4s ease 0s;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  font-style: normal;
+}
+
+body .subscribe:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f9f9f9;
+}
+
+body .divisor {
+  width: 100%;
+  height: 2px;
+}
+
+body .divisorcanales {
+  width: 100%;
+  height: 25px;
+}
+
+/* ------ HEADER --------*/
+/* ------ HEADER --------*/
+/* ------ HEADER --------*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 108.266px;
+  z-index: 1;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.navlogo {
+  padding: 0.5rem;
+  max-width: 200px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background: none;
+  transition: 0.3s;
+  margin: 5px;
+}
+
+.navlogo:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tevichlogo {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar li {
+  text-align: center;
+  padding: 14px 12px;
+}
+
+.navbar .login {
+  text-decoration: none;
+  margin: 5px;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid silver;
+  cursor: pointer;
+  font-size: 16px;
+  color: #f9f9f9;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.4s ease 0s;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  font-style: normal;
+}
+
+.navbar .login:hover {
+  background-color: #f9f9f9;
+  color: #040714;
+}
+
+/* ------ SECTIONS --------*/
+/* ------ SECTIONS --------*/
+/* ------ SECTIONS --------*/
+
+/* ------ SECTION VIDEO --------*/
+
+#container {
+  min-height: 100vh;
+  position: relative;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+/* ------ SECTION SEGUNDA --------*/
+
+.segunda {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.primerbox {
+  max-width: 980px;
+  max-height: 450px;
+  color: #f9f9f9;
+  text-align: center;
+  margin: 0;
+  background: transparent;
+}
+
+.segunda h1 {
+  font-size: 40px;
+}
+
+.segunda h3 {
+  font-size: 30px;
+}
+
+.primerainfo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 350px;
+  background: #272424;
+}
+
+.contenidobox {
+  width: 50%;
+  min-width: 500px;
+  height: 300px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #f9f9f9;
+}
+
+.contenidobox h1 {
+  font-size: 50px;
+}
+
+.contenidobox h3 {
+  font-size: 30px;
+}
+
+.contenidoboxderecha {
+  width: 50%;
+  min-width: 500px;
+  height: 300px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #f9f9f9;
+}
+
+.contenidoboxderecha h1 {
+  font-size: 50px;
+}
+
+.contenidoboxderecha h3 {
+  font-size: 30px;
+}
+
+.mockup {
+  display: flex;
+  align-items: center;
+}
+
+/*-----------CANALES--------------*/
+
+.canales {
+  background: black;
+}
+
+.canales .textocanales {
+  color: #f9f9f9;
+  text-align: center;
+}
+
+.canales .textocanales h1 {
+  font-size: 50px;
+}
+
+.canales .textocanales h3 {
+  font-size: 25px;
+}
+
+.colombia {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.peru {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.pais {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: rgba(117, 170, 219, 0.5);
+  color: #f9f9f9;
+  margin-left: 20px;
+}
+
+.pais .imgpais {
+  width: 70px;
+  height: 75px;
+}
+
+.slider {
+  background: rgba(117, 170, 219, 0.5);
+  width: calc(100% - 40px);
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  *background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 2;
+}
+
+.slider::before {
+  top: 0;
+  left: 0;
+}
+
+.slider::after {
+  top: 0;
+  right: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider .slider-track {
+  display: flex;
+  width: calc(250px * 54);
+  animation: scroll 40s infinite linear;
+}
+
+.slider .slide img {
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(calc(-100px * 27));
+  }
+}
+
+/*-----------PLANES-------------*/
+
+.planes {
+  background: #272424;
+  color: #f9f9f9;
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+}
+
+.planes .opcionesPlanes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.planes .container {
+  box-sizing: border-box;
+  border-top: 20px solid rgba(34, 32, 95, 0.6);
+  border-right: 4px solid rgba(34, 32, 95, 0.6);
+  border-left: 4px solid rgba(34, 32, 95, 0.6);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 400px;
+  background-image: linear-gradient(60deg, black, rgb(25, 25, 73));
+  padding: 20px;
+  box-shadow: 4px 4px 15px #818181;
+}
+
+.planes .opcionesPlanes h1 {
+  font-size: 30px;
+}
+
+.planes .opcionesPlanes h2 {
+  font-size: 22px;
+  *font-weight: 700;
+  color: #5e32df;
+}
+
+.planes .opcionesPlanes p {
+  font-size: 18px;
+}
+
+.planes a {
+  transform: translateY(40px);
+  background-color: rgb(34, 32, 95);
+}
+
+.planes a:hover {
+  background-color: rgb(39, 39, 39);
+  transform: translateY(35px);
+}
+
+.planes .plan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
